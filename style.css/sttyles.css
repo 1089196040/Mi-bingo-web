@@ -1,0 +1,64 @@
+table{
+    margin-top: 0px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+td,th{
+    border: 2px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+caption{
+    padding-top: 120px;
+    font-style: italic;
+}
+
+th{
+    background-color:palevioletred;
+    color: black;
+    font-size: 180%;
+}
+tr{
+    background-color:white;
+    color:black;
+}
+
+td{
+    font-size: 120%;
+}
+a{
+    font-size: 150%;
+}
+
+ul{
+    padding-right: 30px;
+    padding-left: 30px;
+    
+}
+h1{
+    color: black;
+    
+}
+
+
+
+@keyframes banner{
+    0%, 20%{
+        background-image: url(../img/Bingo\ 1.jpg);
+    }
+    25%, 35%{
+        background-image: url(../img/Bingo\ 2.jpg);
+}
+    50%, 70%{
+    background-image: url(../img/Bingo\ 3.jpg);
+}
+    75%, 100%{
+    background-image: url(../img/Bingo\ 4.jpg);
+}
+}
